@@ -16,20 +16,27 @@ export function SiteHeader() {
         </Link>
 
         <nav className="hidden items-center gap-2 md:flex">
-          <Link href="/identity" className="rounded-2xl px-4 py-2 text-sm text-black/70 transition hover:bg-black/5 hover:text-black">
+          <Link
+            href="/identity"
+            className="rounded-2xl px-4 py-2 text-sm text-black/70 transition hover:bg-black/5 hover:text-black"
+          >
             Identity
           </Link>
-          <Link href="/launchpad" className="rounded-2xl px-4 py-2 text-sm text-black/70 transition hover:bg-black/5 hover:text-black">
+
+          <Link
+            href="/launchpad"
+            className="rounded-2xl px-4 py-2 text-sm text-black/70 transition hover:bg-black/5 hover:text-black"
+          >
             Launchpad
           </Link>
 
           <a
-            href="https://mushee.cloud"
+            href="https://mushee.xyz"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-2xl border border-black/10 bg-white/70 px-4 py-2 text-sm text-black/70 shadow-soft transition hover:-translate-y-0.5"
           >
-            mushee.cloud <ExternalLink className="h-4 w-4" />
+            mushee.xyz <ExternalLink className="h-4 w-4" />
           </a>
 
           <a
@@ -44,7 +51,7 @@ export function SiteHeader() {
 
         <div className="md:hidden">
           <a
-            href="https://mushee.cloud"
+            href="https://mushee.xyz"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 rounded-2xl border border-black/10 bg-white/70 px-3 py-2 text-sm text-black/70 shadow-soft"
